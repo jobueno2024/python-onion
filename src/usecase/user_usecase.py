@@ -1,5 +1,5 @@
-from src.domain.user import User
-from src.infrastructure.user_repository import UserRepository
+from domain.user import User
+from infrastructure.user_repository import UserRepository
 
 class UserUseCase:
     def __init__(self, user_repository: UserRepository):

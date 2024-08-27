@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.presentation import user_controller
+from presentation import user_controller
 
 app = FastAPI()
 

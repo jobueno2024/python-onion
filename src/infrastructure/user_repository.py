@@ -1,4 +1,4 @@
-from src.domain.user import User
+from domain.user import User
 
 class UserRepository:
     def get_user_by_id(self, user_id: int) -> User:
