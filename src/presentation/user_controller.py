@@ -10,3 +10,8 @@ user_usecase = UserUseCase(UserRepositoryImpl())
 def get_user(user_id: int):
     user = user_usecase.get_user(user_id)
     return user
+
+@router.get("/users/all")
+def get_users():
+    user = user_usecase.find_all()
+    return user
